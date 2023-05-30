@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td {
+  border: solid 1rem white;
+  border-color: white;
+  text-align: center;
+}
+
+tr {
+  background-color: white;
+}
+
+tr:hover {
+  background-color: red;
+}
+
+tr.even {
+  background-color: green;
+}
+
+tr.odd {
+  background-color: goldenrod;
+}
+
+tr.head {
+  background-color: white;
+}
+tr.head:hover {
+  background-color: white;
+}
